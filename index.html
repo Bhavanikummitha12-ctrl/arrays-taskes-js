@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        //using concat
+        var arr1=["koko", "kabadi", "cricket"];
+var arr2=["sleeping", "playing", "reading"];
+var mergearr=arr1.concat(arr2);
+
+console.log(mergearr);
+
+///using splice
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr.splice(3, 3, 40, 50, 60);
+console.log(arr);
+
+
+ ///using slice
+ var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var weekdays = daysOfWeek.slice(1, 6);
+console.log("Original array:", daysOfWeek);
+console.log("new array:", weekdays);
+
+//using join
+var words = ["I", "love", "learning", "web development"];
+var a = words.join(" ");
+console.log(a);
+
+//using sort
+var arr = [42, 16, 8, 23, 15, 4, 29];
+arr.sort(function(a, b) {
+  return a - b;
+});
+console.log( arr);
+
+    </script>
+</body>
+</html>
